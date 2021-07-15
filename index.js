@@ -1,10 +1,10 @@
 function greating(name,gender){
-let parf='Mr';
+let parf='Mr'; //suppose person is male
 if(gender=='femail'){
 
-    parf='Mrs';
+    parf='Mrs'; // if person is femail
 }
-console.log('Welcome'+parf+name);
+console.log('Welcome'+parf+name); //we print gender person
 
 
 }
